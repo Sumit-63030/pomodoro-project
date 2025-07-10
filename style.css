@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #30148a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.container{
+    height: 80vh;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.pomodoro-buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button {
+    padding: 10px 15px;
+    background-color: #37276a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 40px #00ffff;
+    background-color: #39ff14; /* electric green */
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.button.active {
+  background-color: #39ff14; /* Electric green for active */
+  box-shadow: 0 0 15px #00ffcc;
+  font-weight: bold;
+}
+
+.timer-counter {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #1e0f52, #3c20ad);
+  box-shadow: 0 0 25px #282aef, inset 0 0 10px #191cdd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  border: 5px solid #3f4fff;
+}
+
+.timer-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#Pomodoro-btn:hover {
+    box-shadow: 0 0 10px #ff4c4c, 0 0 20px #ff4c4c;
+    background-color: #ff1a1a;
+}
+
+#short-break-btn:hover {
+    box-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+    background-color: #0099cc;
+}
+
+#long-break-btn:hover {
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    background-color: #cc00cc;
+}
+
