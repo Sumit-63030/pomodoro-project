@@ -21,7 +21,7 @@ This timer lets you switch between **Pomodoro**, **Short Break**, and **Long Bre
 ## Built With
 
 - `HTML` for the structure
-- `CSS` for all the glowing button
+- `CSS` for all the glowing buttons
 - `JavaScript` for managing timers, switching modes, and playing sounds
 
 ---
